@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-   <book-list/>
+   <book-list></book-list>
   </div>
 </template>
 
 <script>
-import Booklist from "./components/BookList.vue";
+import BookList from './components/BookList';
 
 
 export default {
   name: 'app',
   components: {
-    Booklist,
+    BookList,
   },
 };
 </script>
