@@ -1,12 +1,11 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-   <BookList/>
+   <book-list/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
 import Booklist from "./components/BookList.vue";
 
 
