@@ -2,10 +2,7 @@
   <div>
     <h1>{{title}}</h1>
     <ul>
-      <div v-for="book in books" :key="book.id">
-       <li>{{ book.title}}: {{book.author}}</li>
-      </div>
-   
+      <li v-for="book in books">{{book.title}}:{{book.author}}</li>
     </ul>
   </div>
 </template>
@@ -31,7 +28,7 @@ h2 {
   font-weight: normal;
 }
 ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
 }
 li {
